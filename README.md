@@ -13,10 +13,19 @@ The project aims to find any relations between the parameters of bike stations a
 4. Wrote function _bike_stations_of_city(city)_ which takes all hrefs of city networks from 2. and returns all the stations in the city.
 5. Got data for Odessa and noticed that empty_bikes and free_slots are all zeroes, checked a couple of other cities and ended up with Vancouver.
 6. Wrote function _get_stations_details(city)_ to parse details for all stations from 5. and put it in DataFrame _vancouver_stations_df_.
-7. Saved DataFrame to pkl, to use it on next steps.
+7. Saved DataFrame to pkl, for the next steps.
 
 ### Step 2: Foursquare and Yelp
+#### Exploring 4sqr API -> Collecting data from it -> Exploring Yelp API -> Collecting data from it -> Comparing 4sqr and Yelp data
 
+1. Imported _vancouver_stations_df_ DataFrame from previous steps.
+2. Explored Foursquare API, and chose categories of places to parse.
+3. Wrote function _get_nearby_places_, which takes the latitude and longitude of bike stations from the previous step and returns all chosen types of POIs in a radius of 1000m and a maximum of 50 POIs per station/location.
+4. Explored data and found out that it's incomplete.
+5. Explored Yelp API, and chose categories of places to parse.
+6. Wrote function _get_yelp_places_ which is similar to 3. and returns all chosen types of POIs in a radius of 1000m and a maximum of 50 POIs per station/location.
+7. Compared Foursquare and Yelp data.
+8. Since Yelp data is much more precise, saved it to pkl for the next steps.
 
 
 ### Step 2: Foursquare and Yelp
