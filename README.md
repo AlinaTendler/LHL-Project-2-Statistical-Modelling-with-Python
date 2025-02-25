@@ -4,7 +4,7 @@
 The project aims to find any relations between the parameters of bike stations and POIs in Vancouver (it can be easily modified for any other city, available on used sources), applying knowledge about APIs, EDA, and regression modeling. 
 
 ## Process
-### Step 1: CityBikes
+### Step 1: CityBikes (1_city_bikes.ipynb)
 #### Exploring CityBikes API -> Collecting data from it ->Exploring data
 
 1. Explored API documentation of CityBikes.
