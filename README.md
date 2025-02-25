@@ -28,7 +28,17 @@ The project aims to find any relations between the parameters of bike stations a
 8. Since Yelp data is much more precise, saved it to pkl for the next steps.
 
 
-### Step 2: Foursquare and Yelp
+### Step 3: Joining data + EDA + SQL (3_joining_data.ipynb)
+#### Data joining -> EDA -> SQL
+
+1. Imported _vancouver_stations_df_ and _yelp_places_df_ DataFrames from previous steps.
+2. Joined them in one DataFrame.
+3. Created 10 different plots to visualize and explore data.
+4. Created SQLite database using this data.
+
+
+
+
 
 ## Results
 (fill in what you found about the comparative quality of API coverage in your chosen area and the results of your model.)
