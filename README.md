@@ -1,7 +1,7 @@
 # Final-Project-Statistical-Modelling-with-Python
 
 ## Project/Goals
-(fill in your description and goals here)
+The goal of the project is to find any relations between the parameters of bike stations and POIs, applying knowledge about APIs, EDA and regression
 
 ## Process
 ### (your step 1)
