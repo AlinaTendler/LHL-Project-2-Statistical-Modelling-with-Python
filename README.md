@@ -5,7 +5,7 @@ The project aims to find any relations between the parameters of bike stations a
 
 ## Process
 ### Step 1: CityBikes (1_city_bikes.ipynb)
-#### Explored CityBikes API -> Collected data from it ->Explored data -> Saved results
+#### Explored CityBikes API -> Collected data from it -> Explored data -> Saved results
 
 1. Explored API documentation of CityBikes.
 2. Wrote function _get_city_data(city)_, which returns all the networks for a specified city.
@@ -18,9 +18,9 @@ The project aims to find any relations between the parameters of bike stations a
 ### Step 2: Foursquare and Yelp
 #### Explored 4sqr API -> Collected data from it -> Explored Yelp API -> Collected data from it -> Compared 4sqr and Yelp data -> Saved results
 
-1. Imported _vancouver_stations_df_ DataFrame from previous steps.
+1. Imported _vancouver_stations_df_ DataFrame from previous step.
 2. Explored Foursquare API, and chose categories of places to parse.
-3. Wrote function _get_nearby_places_, which takes the latitude and longitude of bike stations from the previous step and returns all chosen types of POIs in a radius of 1000m and a maximum of 50 POIs per station/location.
+3. Wrote function _get_nearby_places_, which gives the latitude and longitude of bike stations from the previous step and returns all chosen types of POIs in a radius of 1000m and a maximum of 50 POIs per station/location.
 4. Explored data and found out that it's incomplete.
 5. Explored Yelp API, and chose categories of places to parse.
 6. Wrote function _get_yelp_places_ which is similar to 3. and returns all chosen types of POIs in a radius of 1000m and a maximum of 50 POIs per station/location.
