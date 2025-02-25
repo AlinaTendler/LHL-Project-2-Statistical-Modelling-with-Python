@@ -15,7 +15,7 @@ The project aims to find any relations between the parameters of bike stations a
 6. Wrote function _get_stations_details(city)_ to parse details for all stations from 5. and put it in DataFrame _vancouver_stations_df_.
 7. Saved DataFrame to pkl, for the next steps.
 
-### Step 2: Foursquare and Yelp (2_yelp_foursquare_EDA)
+### Step 2: Foursquare and Yelp (2_yelp_foursquare_EDA.ipynb)
 #### Explored 4sqr API -> Collected data from it -> Explored Yelp API -> Collected data from it -> Compared 4sqr and Yelp data -> Saved results
 
 1. Imported _vancouver_stations_df_ DataFrame from previous step.
