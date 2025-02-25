@@ -14,7 +14,11 @@ The project aims to find any relations between the parameters of bike stations a
 5. Got data for Odessa and noticed that empty_bikes and free_slots are all zeroes, checked a couple of other cities and ended up with Vancouver.
 6. Wrote function _get_stations_details(city)_ to parse details for all stations from 5. and put it in DataFrame _vancouver_stations_df_.
 
-### (your step 2)
+### Step 2: Foursquare and Yelp
+
+
+
+### Step 2: Foursquare and Yelp
 
 ## Results
 (fill in what you found about the comparative quality of API coverage in your chosen area and the results of your model.)
