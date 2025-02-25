@@ -5,7 +5,7 @@ The project aims to find any relations between the parameters of bike stations a
 
 ## Process
 ### Step 1: CityBikes (1_city_bikes.ipynb)
-#### Exploring CityBikes API -> Collecting data from it ->Exploring data
+#### Explored CityBikes API -> Collected data from it ->Explored data -> Saved results
 
 1. Explored API documentation of CityBikes.
 2. Wrote function _get_city_data(city)_, which returns all the networks for a specified city.
@@ -16,7 +16,7 @@ The project aims to find any relations between the parameters of bike stations a
 7. Saved DataFrame to pkl, for the next steps.
 
 ### Step 2: Foursquare and Yelp
-#### Exploring 4sqr API -> Collecting data from it -> Exploring Yelp API -> Collecting data from it -> Comparing 4sqr and Yelp data
+#### Explored 4sqr API -> Collected data from it -> Explored Yelp API -> Collected data from it -> Compared 4sqr and Yelp data -> Saved results
 
 1. Imported _vancouver_stations_df_ DataFrame from previous steps.
 2. Explored Foursquare API, and chose categories of places to parse.
