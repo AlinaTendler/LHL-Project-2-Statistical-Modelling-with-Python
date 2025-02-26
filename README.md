@@ -40,7 +40,20 @@ The project aims to find any relations between the parameters of bike stations a
 5. Created 10 different plots to visualize and explore data.
 6. Created SQLite database using this data.
 
+Define Bike Availability Classes:
 
+Low Availability: 0-3 bikes
+Medium Availability: 4-8 bikes
+High Availability: 9+ bikes
+Use a Classification Model:
+
+Logistic Regression (simple)
+Random Forest or Decision Tree (handles non-linear relationships)
+Neural Networks (if enough data)
+Feature Selection:
+
+Keep Ratings, Review Count, and high-impact POI types.
+Add time-based features (rush hour vs. non-rush hour)
 
 
 
