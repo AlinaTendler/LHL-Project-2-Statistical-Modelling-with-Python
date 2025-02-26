@@ -45,8 +45,8 @@ The project aims to find any relations between the parameters of bike stations a
 #### Model bulding -> Analyzing -> Stretch task
 
 1. Built a regression model using Python’s `statsmodels`.
-2. Interpret results.
-3. Stretch: can you think of a way to turn the above regression problem into a classification one? Without coding, can you sketch out how you would cast the problem specifically, and lay out your approaches?
+2. Interpreted results.
+3. Answered questions from Stretch. (_can you think of a way to turn the above regression problem into a classification one? Without coding, can you sketch out how you would cast the problem specifically, and lay out your approaches?_)
 
 
  ##### Define Bike Availability Classes:
