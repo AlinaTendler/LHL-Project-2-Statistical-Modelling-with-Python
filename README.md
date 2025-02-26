@@ -55,7 +55,7 @@ The project aims to find any relations between the parameters of bike stations a
      - Medium Availability: 4-8 bikes
      - High Availability: 9+ bikes
 
-##### Use a Classification Model:
+##### Classification Model:
  
      - Logistic Regression (simple)
      - Random Forest or Decision Tree (handles non-linear relationships)
