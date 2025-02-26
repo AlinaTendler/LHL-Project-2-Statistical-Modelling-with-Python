@@ -37,7 +37,7 @@ The project aims to find any relations between the parameters of bike stations a
      3.1. _Address_ missing values replaced with 'Unknown'
      3.2. _Price Range_ replaced with 5 categories: 1 to 5
      3.3. Checked for duplicates (no duplicates)
-5. Created 10 different plots to visualize and explore data.
+5. Created 7 different plots to visualize and explore data.
 6. Created SQLite database using this data.
 
 
