@@ -57,21 +57,27 @@ The project aims to find any relations between the parameters of bike stations a
 
 ##### Classification Model:
  
-     - Logistic Regression (simple)
-     - Random Forest or Decision Tree (handles non-linear relationships)
-
-##### Feature Selection:
- 
-     - Keep Ratings, Review Count, and high-impact POI types.
-     - Add time-based features (rush hour vs. non-rush hour)
-
-
+     - Logistic Regression
+     - Random Forest or Decision Tree 
 
 ## Results
-(fill in what you found about the comparative quality of API coverage in your chosen area and the results of your model.)
+(fill in what you found about the comparative q uality of API coverage in your chosen area and the results of your model.)
 
 ## Challenges 
-(discuss challenges you faced in the project)
+
+Categories are not standartized. 1 item may have from 0 to 10+ catrgories in random order, i.e. cafe may be 1st or somewhere in the middle of the list. Later I realized that I could use categories from parsing parameters, but I didn't implement it.
+
+I created a couple of heatmaps using folium, but GitHub didn't display it properly, then I found a partial solution with static maps (streamlit_folium), but didn't implement it.
 
 ## Future Goals
-(what would you do if you had more time?)
+
+If I had more time, I would:
+
+- collect data from Yelp for more categories
+- collect more data from Fourqquare and join it with Yelp data 
+- use API parameters to sort POIs by category
+- collect and explore bikes data for different time of the day and week
+- check relation between POI popularity (for example, number of reviews adjustet by the age of POI) and distance from bike station/ number of nearby stations in spegific radius
+- check how _free_bike_ and _empty_slots_ numbers change after closing hour
+- collect some data for rush hours and quiet hours in POIs and check relation with _free_bike_ and _empty_slots numbers_
+
